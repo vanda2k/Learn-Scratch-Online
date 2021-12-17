@@ -1,0 +1,75 @@
+.containter{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(#FACD68, #FC76C3); 
+
+}
+.left{
+	float: left;
+}
+#logo{
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.infor{
+	float: right;
+}
+.infor  ul li{
+	
+	display: inline-table;
+	padding: 30px;
+}
+.infor  ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	
+}
+.infor  ul li a img{
+	vertical-align: middle;}
+.name{
+	background-color: white;
+	color:black;
+}
+
+.btn-register{
+	width: 100px;
+	height: 40px;
+	border: 2px;
+	background-color: rgb(68, 41, 223);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+.noidung {
+	background: lightpink;
+	/*text-align: center;*/
+}
+.video {
+	width: 200px;
+	margin-left: 400px;
+}
+.muc1 {
+	margin-left: 200px;
+	font-size: 25px;
+
+}
+.muc2 {
+	margin-left: 200px;
+	font-size: 25px;
+}
+.muc0 {
+	text-align: center;
+	font-size: 30px;
+	background: pink;
+}
+.tracnghiem{
+	text-align: center;
+}

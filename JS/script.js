@@ -1,11 +1,3 @@
-document.getElementById('button').addEventListener("click", function() {
-    document.querySelector('.popup').style.display = 'flex';
-});
-document.querySelector('.close').addEventListener("click", function() {
-document.querySelector('.popup').style.display = "none";
-});
-
-
 function Register(){
 
     var arr = document.getElementsByTagName("input")
@@ -21,12 +13,19 @@ function Register(){
     localStorage.setItem("Confirm Password", confirm_password_data);
     console.log(user_name_data, password_data, confirm_password_data)
 
+    
     alert("Chúc mừng bạn đã tao tài khoản thành công!")
 
 }
 function Login(){
     const user = document.getElementById("user")
     const pass = document.getElementById("pass")
+    
+    console.log(user.value, pass.value);
+    if ((user.value == "admin")&& (pass.value =="admin")){
+        alert("Dang nhap thanh cong!")
+        window.location="../HTML/scratchnc1.html"
+    };
     
     if ((localStorage.getItem("User Name") == user.value) && (localStorage.getItem("Password") == pass.value)){
         alert("Chuc mung ban da dang nhap thanh cong!")
